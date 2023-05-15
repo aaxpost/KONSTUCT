@@ -2,16 +2,11 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 1px solid red;
 }
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid blue;
-}
-.item-menu {
-  font-family: 'OpenSans';
 }
 @media (min-width: 0px) and (max-width: 360px) {
   html {
@@ -130,10 +125,15 @@
   flex-direction: row;
 }
 .item-menu {
+  font-family: 'OpenSans';
   color: #48555B;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 12px;
   margin-left: 2.625rem;
+}
+.item-menu_active {
+  font-family: 'OpenSans-Bold';
+  color: #00A4E5;
 }
 @media (min-width: 0px) and (max-width: 600px) {
   .menu-logo {
@@ -156,35 +156,41 @@
   }
 }
 .main-content__our-story {
-  border: 1px solid red;
   height: 300px;
 }
 .our-story__header {
-  border: 1px solid red;
-  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+}
+.our-story__header-h1 {
+  font-family: 'OpenSans-Bold';
+  color: #48555B;
+  font-size: 18px;
+  margin-top: 57px;
+  margin-bottom: 10px;
+}
+.our-story__header-img {
+  margin-bottom: 10px;
 }
 .our-story__content {
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
   height: 100%;
   width: 100%;
 }
 .our-story__desc {
-  border: 1px solid blue;
   height: 100%;
   width: 50%;
 }
 .our-story__banner {
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
   height: 100%;
   width: 50%;
 }
 .our-story__block {
-  border: 1px solid blue;
   height: 100%;
   width: 33%;
 }
@@ -198,14 +204,13 @@
   background-image: url('image/we-plan.png');
 }
 .our-story__block_2 {
-  background-image: url('image/we-plan.png');
+  background-image: url('image/we-manage.png');
 }
 .our-story__block_3 {
-  background-image: url('image/we-plan.png');
+  background-image: url('image/we-build.png');
 }
 .our-story__banner-item {
   font-family: 'OpenSans-ExtraBold';
   color: #FFFFFF;
   font-size: 24px;
-  font-weight: 800;
 }
