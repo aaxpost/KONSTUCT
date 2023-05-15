@@ -214,3 +214,11 @@
   color: #FFFFFF;
   font-size: 24px;
 }
+.our-story__desc-bold {
+  font-family: 'OpenSans-Bold';
+  color: #48555B;
+  font-size: 20px;
+}
+.our-story__desc-bold_blue {
+  color: #16ACE8;
+}
